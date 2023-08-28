@@ -13,6 +13,6 @@ public class HelloController {
     @GetMapping("/hello-world")
     @ResponseBody
     public String helloWorld() {
-        return "hi!";
+        return "idk whatever!";
     }
 }
