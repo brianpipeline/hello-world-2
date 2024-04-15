@@ -1,9 +1,5 @@
-dockerfile.path: "Dockerfile"
-buildContainer: java17
+type: "java21"
 envsToDeployTo: ["dev", "stage", "prod"]
-serviceName: "test-service"
-# one day, read app version from pom, gradle build, or package.json.
-
 
 
 
